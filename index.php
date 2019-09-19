@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -174,8 +173,8 @@ form{
                               </div>
                               <br> 
                               <div class="form-group">
-                                <label for="fb">Facebook url</label>
-                                <input type="text" name="facebook" class="form-control" id="fb"  placeholder="Enter your facebook link" required>
+                                <label for="university">University</label>
+                                <input type="text" name="university" class="form-control" id="university"  placeholder="Enter your university" required>
                               </div>
                               <br>
                               <div class="form-group">
@@ -183,14 +182,10 @@ form{
                                 <input type="text" name="faculty" class="form-control" id="faculty"  placeholder="Enter your faculty"required>
                               </div>
                               <br>
-                          <div class="form-group">
-                                <label for="university">University</label>
-                                <input type="text" name="university" class="form-control" id="university"  placeholder="Enter your university" required>
-                              </div>
-                              <br>
+                   
                               <div class="form-group">
-                                    <label for="grad">graduation year</label>
-                                    <input type="number" name="academicYear" class="form-control" id="grad"  placeholder="Enter your graduation year" required>
+                                    <label for="academic">Academic year</label>
+                                    <input type="number" name="academicYear" class="form-control" id="academic"  placeholder="Enter your academic year" required>
                                   </div>
                                   <br>
                                   <div class="form-group">
@@ -211,7 +206,7 @@ form{
                                       <br>
                                       <div class="form-group">
                                         <label for="committees2">committee second preference</label>
-                                        <select class="form-control" name="second" id="committtees2" required>
+                                        <select class="form-control" name="second" id="committees2" required>
                                          <option value="none">select committee</option>
                                           <option value="photoshop">Academic section -Designing Committee-Photoshop </option>
                                           <option value="illustrator">Academic section-Designing Committee-Illustrator</option>
@@ -224,16 +219,8 @@ form{
                                 
                                         </select>
                                       </div>
-                                      <br>
-                                      <div class="form-group">
-                                            <label for="reasonapply">Explain why do you want to apply</label>
-                                            <textarea name="reasonsForApplying" class="form-control" id="reasonapply" rows="3"></textarea>
-                                          </div>
-                                          <br>
-                                          <div class="form-group">
-                                                <label for="experience">Explain your previous experience</label>
-                                                <textarea name="PreviousExperience" class="form-control" id="experience" rows="3"></textarea>
-                                              </div>
+                                      
+                                   
                                               <br>
                                       <input type="submit" name="submit"class="btn btn-primary">      
                   </form>
